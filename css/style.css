@@ -36,6 +36,7 @@ body {
     line-height: 1.7;
     color: var(--color-white);
     background: var(--color-bg);
+    background-image: url("./assets/bg-texture.png");
 }
 
 .container {
@@ -429,17 +430,19 @@ header {
     text-decoration: underline;
 }
 
+.footer__socials img {
+    width: 3rem;
+    height: 3rem;
+}
+
 .footer__socials {
     display: flex;
     gap: 1rem;
     font-size: 1.2rem;
     margin-top: 2rem;
-    align-items: baseline;
 }
 
-.footer__socials:nth-child(3) {
-    height: 3rem;
-}
+
 
 .footer__copyright {
     text-align: center;
